@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'FF Shamel Family Unique';
+    src: url('FFShamelFamily-UniqueBook.eot');
+    src: url('FFShamelFamily-UniqueBook.eot?#iefix') format('embedded-opentype'),
+        url('FFShamelFamily-UniqueBook.woff2') format('woff2'),
+        url('FFShamelFamily-UniqueBook.woff') format('woff'),
+        url('FFShamelFamily-UniqueBook.ttf') format('truetype'),
+        url('FFShamelFamily-UniqueBook.svg#FFShamelFamily-UniqueBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FF Shamel Family Unique';
+    src: url('FFShamelFamily-UniqueLight.eot');
+    src: url('FFShamelFamily-UniqueLight.eot?#iefix') format('embedded-opentype'),
+        url('FFShamelFamily-UniqueLight.woff2') format('woff2'),
+        url('FFShamelFamily-UniqueLight.woff') format('woff'),
+        url('FFShamelFamily-UniqueLight.ttf') format('truetype'),
+        url('FFShamelFamily-UniqueLight.svg#FFShamelFamily-UniqueLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FF Shamel Family Unique';
+    src: url('FFShamelFamily-UniqueBold.eot');
+    src: url('FFShamelFamily-UniqueBold.eot?#iefix') format('embedded-opentype'),
+        url('FFShamelFamily-UniqueBold.woff2') format('woff2'),
+        url('FFShamelFamily-UniqueBold.woff') format('woff'),
+        url('FFShamelFamily-UniqueBold.ttf') format('truetype'),
+        url('FFShamelFamily-UniqueBold.svg#FFShamelFamily-UniqueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FF Shamel Family Unique';
+    src: url('FFShamelFamily-UniqueMedium.eot');
+    src: url('FFShamelFamily-UniqueMedium.eot?#iefix') format('embedded-opentype'),
+        url('FFShamelFamily-UniqueMedium.woff2') format('woff2'),
+        url('FFShamelFamily-UniqueMedium.woff') format('woff'),
+        url('FFShamelFamily-UniqueMedium.ttf') format('truetype'),
+        url('FFShamelFamily-UniqueMedium.svg#FFShamelFamily-UniqueMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

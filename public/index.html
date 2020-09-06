@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Zid - Panel</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-colors.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style-rtl.css">
+    <link id="dark-style-toggle" rel="stylesheet" type="text/css" href="">
+    <script>
+        var darkmode = localStorage.getItem('zid-panel-darkmode');
+        if(darkmode != "false"){
+            document.getElementById("dark-style-toggle").setAttribute("href", "css/dark-mode.css");
+        }
+    </script>
+</head>
+<body>
+<div id="wrapper">
+
+
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/apexcharts.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/chosen.jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+      $(".chosen-select").chosen();
+  </script>
   </body>
-</html>
+  </html>
